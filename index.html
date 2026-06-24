@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="kk">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Арман Геморой · Мемные оскорбления</title>
+  <title>Арман Геморой · Қазақша маттар</title>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik+Vinyl&display=swap" rel="stylesheet" />
   <style>
     * {
@@ -80,11 +80,11 @@
     .armand-kuldykta {
       font-family: 'Rubik Vinyl', cursive;
       font-size: 3rem;
-      background: linear-gradient(135deg, #ffb347, #ff6b6b, #ff2d2d);
+      background: linear-gradient(135deg, #ff2d2d, #ff6b6b, #ffb347);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
-      text-shadow: 0 0 30px #ff2222, 0 4px 0 #4a0f0f;
+      text-shadow: 0 0 40px #ff0000, 0 4px 0 #4a0f0f;
       letter-spacing: 4px;
       text-align: center;
       margin: -5px 0 30px 0;
@@ -92,13 +92,13 @@
       background-color: #0f1422;
       border-radius: 80px;
       display: inline-block;
-      border: 3px solid #f1c40f;
-      box-shadow: 0 0 0 4px #1f1f2e;
+      border: 3px solid #ff2d2d;
+      box-shadow: 0 0 0 4px #1f1f2e, 0 0 30px #ff000066;
     }
 
     .insult-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 22px 20px;
       margin: 30px 0 25px;
     }
@@ -108,25 +108,26 @@
       border-radius: 40px 20px 40px 20px;
       padding: 22px 18px 20px;
       box-shadow: 0 12px 0 #0e121d, 0 10px 25px rgba(0,0,0,0.7);
-      border: 2px solid #f1c40f;
+      border: 2px solid #ff2d2d;
       transition: 0.15s ease;
       text-align: center;
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 12px;
-      min-height: 180px;
+      min-height: 190px;
       justify-content: center;
+      background: linear-gradient(145deg, #1e2537, #2a1f2f);
     }
 
     .insult-card:hover {
       transform: scale(1.02) translateY(-5px);
-      border-color: #ffdd55;
-      box-shadow: 0 14px 0 #0e121d, 0 20px 30px #000000aa;
+      border-color: #ff5555;
+      box-shadow: 0 14px 0 #0e121d, 0 20px 30px #ff000033;
     }
 
     .insult-text {
-      font-size: 1.6rem;
+      font-size: 1.7rem;
       color: #f7e7b0;
       font-family: 'Fredoka One', cursive;
       line-height: 1.4;
@@ -134,8 +135,8 @@
     }
 
     .insult-emoji {
-      font-size: 2.8rem;
-      filter: drop-shadow(0 0 12px #f1c40f);
+      font-size: 3rem;
+      filter: drop-shadow(0 0 12px #ff2d2d);
     }
 
     .insult-tag {
@@ -143,8 +144,8 @@
       padding: 5px 16px;
       border-radius: 60px;
       font-size: 0.9rem;
-      color: #f7e7b0;
-      border: 1px solid #e8b83a;
+      color: #ffb3b3;
+      border: 1px solid #ff2d2d;
       font-family: 'Segoe UI', system-ui, sans-serif;
     }
 
@@ -154,7 +155,7 @@
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      gap: 25px 40px;
+      gap: 20px 30px;
       background: #1a2a1f;
       padding: 25px 30px;
       border-radius: 90px 20px 90px 20px;
@@ -165,19 +166,20 @@
 
     .shrek-zone h2 {
       font-family: 'Rubik Vinyl', cursive;
-      font-size: 2.6rem;
+      font-size: 2.4rem;
       color: #b3ffa7;
       text-shadow: 0 0 20px #2e7d32, 0 4px 0 #1f4d1f;
     }
 
     .shrek-zone .shrek-text {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       color: #d4e8b0;
       background: #0f1f12;
-      padding: 12px 30px;
+      padding: 12px 28px;
       border-radius: 60px;
       border: 2px solid #8bc34a;
       box-shadow: 0 0 20px #3a6b2d;
+      font-family: 'Fredoka One', cursive;
     }
 
     .footer-meme {
@@ -188,7 +190,7 @@
       background: #121826;
       padding: 14px 30px;
       border-radius: 100px;
-      border: 2px dotted #c9b153;
+      border: 2px dotted #ff2d2d;
       display: inline-block;
     }
 
@@ -219,74 +221,74 @@
   <header class="header">
     <h1>🚨 АРМАН ГЕМОРОЙ 🚨</h1>
     <div class="sub-meme">
-      <span>💅</span> дам · мемные оскорбления <span>🔥</span>
+      <span>💅</span> дам · қазақша маттар <span>🔥</span>
     </div>
   </header>
 
   <div style="text-align: center; width: 100%;">
-    <div class="armand-kuldykta">🧅 АРМАН ҚҰЛДЫҚТА 🧅</div>
+    <div class="armand-kuldykta">🔥 АРМАН ҚҰЛДЫҚТА 🔥</div>
   </div>
 
-  <!-- Сетка с мемными оскорблениями -->
+  <!-- Сетка с матами и оскорблениями на казахском -->
   <div class="insult-grid" id="insultGrid"></div>
 
-  <!-- Шрек-зона с текстовыми приколами -->
+  <!-- Шрек-зона с казахскими приколами -->
   <div class="shrek-zone">
-    <h2>🧅 ШРЕК СКАЗАЛ 🧅</h2>
-    <div class="shrek-text">«Арман, ты как лук — у тебя слои кринжа»</div>
-    <div class="shrek-text">«У Армана геморой даже в душе»</div>
-    <div class="shrek-text">«Арман — болотный король позора»</div>
+    <h2>🧅 ШРЕК АЙТТЫ 🧅</h2>
+    <div class="shrek-text">«Арман — қотақтың патшасы»</div>
+    <div class="shrek-text">«Арманның ешагы да кодыгы»</div>
+    <div class="shrek-text">«Арман — батпақтың қотақ басы»</div>
   </div>
 
   <div class="footer-meme">
-    ⚡ тикток-приколы &nbsp;|&nbsp; #армангеморой &nbsp;|&nbsp; 🧅 шрек одобряет
+    ⚡ тикток-пранк &nbsp;|&nbsp; #армангеморой &nbsp;|&nbsp; 🧅 шрек куә
   </div>
 </div>
 
 <script>
   (function() {
-    // АРМИЯ МЕМНЫХ ОСКОРБЛЕНИЙ ДЛЯ АРМАНА
+    // ҚАТТЫ ҚАЗАҚША МАТТАР МЕН ОСКОРБЛЕНИЯ
     const insults = [
-      { text: "Арман — король геморроя 👑", emoji: "💩" },
-      { text: "У Армана IQ как у табуретки 🪑", emoji: "🧠" },
-      { text: "Арман — живой кринж-компиляция 🤡", emoji: "🔥" },
-      { text: "Арман думал, что Шрек — это про него", emoji: "🧅" },
-      { text: "Арман: 'я краш' — все: 'ты геморой'", emoji: "😭" },
-      { text: "Арман в зеркало: 'кто это?' — зеркало: 'кринж'", emoji: "🪞" },
-      { text: "У Армана даже болото Шрека чище", emoji: "🌿" },
-      { text: "Арман — челлендж: не будь геморроем (провал)", emoji: "📉" },
-      { text: "Арман: 'я альфа' — все: 'ты геморрой-бета'", emoji: "🐺" },
-      { text: "Арман сдал ГТО по кринжу — золото", emoji: "🥇" },
-      { text: "Арман — причина, почему у Шрека болото воняет", emoji: "💨" },
-      { text: "Арман: 'я мем' — мемы: 'мы не про тебя'", emoji: "😂" },
-      { text: "Арман — главный герой тиктока для зумеров", emoji: "📱" },
-      { text: "Арман геморрой — диагноз, а не имя", emoji: "🏥" },
-      { text: "Арман: 'я красавчик' — зеркало треснуло", emoji: "💔" },
-      { text: "Арман — живой пранк над самим собой", emoji: "🎭" },
-      { text: "Арман — база для мемов без фото", emoji: "🖼️" },
-      { text: "Арман — болотный хозяин позора", emoji: "🧅" },
-      { text: "Арман: 'дайте мне шрека' — шрек: 'не, я пас'", emoji: "🙅" },
-      { text: "Арман — легенда, но только среди геморроя", emoji: "📖" },
-      { text: "Арман — чел, который сделал кринж искусством", emoji: "🎨" },
-      { text: "Арман — тикток-звезда, но в чёрном списке", emoji: "⭐" },
-      { text: "Арман: 'я крутой' — все: 'ты геморройный'", emoji: "🌀" },
-      { text: "Арман — причина, почему Шрек ушёл в лес", emoji: "🌲" },
-      { text: "Арман — живой мем без картинки", emoji: "📝" },
-      { text: "Арман — геморрой в квадрате", emoji: "🔲" },
-      { text: "Арман — болотный дух позора", emoji: "👻" },
-      { text: "Арман: 'я уникален' — все: 'как геморрой'", emoji: "🦄" },
-      { text: "Арман — пранк, который никто не понял", emoji: "🤷" },
-      { text: "Арман — король кринжа и геморроя", emoji: "👑" },
-      { text: "Арман — даже Шрек над ним смеётся", emoji: "😂" },
-      { text: "Арман — человек-геморрой, мем-легенда", emoji: "🧬" },
-      { text: "Арман: 'я звезда' — звёзды погасли", emoji: "🌠" }
+      { text: "Арман — қотақтың кодыгы", emoji: "🍆" },
+      { text: "Арман ешак, ешак, ешак!", emoji: "🐴" },
+      { text: "Арман — геморройлы қотақ", emoji: "💩" },
+      { text: "Арманның басы — қотақ басы", emoji: "🧠" },
+      { text: "Арман — кодыгы жоқ ешак", emoji: "🫏" },
+      { text: "Арман — қотақ патшасы", emoji: "👑" },
+      { text: "Арман — шизоидті ешак", emoji: "🌀" },
+      { text: "Арманның миы — қотақ", emoji: "🧠" },
+      { text: "Арман — құлдықтағы қотақ", emoji: "⛓️" },
+      { text: "Арман ешагы — геморройлы", emoji: "🐴" },
+      { text: "Арман — қотақ мемі", emoji: "🔥" },
+      { text: "Арман — батпақтың қотақ басы", emoji: "🌿" },
+      { text: "Арман — кодыгы жоқ пранк", emoji: "🎭" },
+      { text: "Арман — қотақтың легендасы", emoji: "📖" },
+      { text: "Арман ешак — ол факт", emoji: "📌" },
+      { text: "Арман — геморройлы ешак", emoji: "💢" },
+      { text: "Арманның қотагы — кринж", emoji: "😂" },
+      { text: "Арман — құлдықтағы ешак", emoji: "⛓️" },
+      { text: "Арман — қотақтың ағасы", emoji: "🧔" },
+      { text: "Арман — батпақ ешагы", emoji: "🟢" },
+      { text: "Арман — қотақ генералы", emoji: "⭐" },
+      { text: "Арман ешак — 24/7", emoji: "🕒" },
+      { text: "Арман — кодыгы жок қотақ", emoji: "❌" },
+      { text: "Арман — геморройлы құл", emoji: "💀" },
+      { text: "Арман — қотақтың мемі", emoji: "📱" },
+      { text: "Арман — ешак патшасы", emoji: "🐴" },
+      { text: "Арман — қотақ кринжы", emoji: "🤡" },
+      { text: "Арман — батпақтың кодыгы", emoji: "🧅" },
+      { text: "Арман — құлдықтағы мем", emoji: "🖼️" },
+      { text: "Арман ешак — ол сенім", emoji: "🙏" },
+      { text: "Арман — қотақтың басшысы", emoji: "👔" },
+      { text: "Арман — геморройлы мем", emoji: "💩" },
+      { text: "Арман — қотақ мәсіхі", emoji: "✝️" },
+      { text: "Арман ешак — түпкілікті", emoji: "🔚" }
     ];
 
     const grid = document.getElementById('insultGrid');
     if (!grid) return;
     grid.innerHTML = '';
 
-    // Добавляем все оскорбления
     insults.forEach((item, index) => {
       const card = document.createElement('div');
       card.className = 'insult-card';
@@ -301,7 +303,7 @@
 
       const tag = document.createElement('div');
       tag.className = 'insult-tag';
-      const tags = ['#арман', '#геморой', '#кринж', '#шрек', '#мем', '#тикток', '#пранк', '#смешно', '#вайб', '#позор'];
+      const tags = ['#арман', '#қотақ', '#ешак', '#кодыгы', '#геморрой', '#шрек', '#мем', '#тикток', '#пранк', '#құлдық'];
       tag.textContent = tags[index % tags.length];
 
       card.appendChild(emojiSpan);
@@ -310,7 +312,7 @@
       grid.appendChild(card);
     });
 
-    // Если нужно больше — дублируем с новыми тегами
+    // если мало — добавляем ещё
     while (grid.children.length < 30) {
       const idx = grid.children.length % insults.length;
       const item = insults[idx];
@@ -327,7 +329,7 @@
 
       const tag = document.createElement('div');
       tag.className = 'insult-tag';
-      tag.textContent = '#армангеморой';
+      tag.textContent = '#арманкодыгы';
 
       card.appendChild(emojiSpan);
       card.appendChild(textDiv);
